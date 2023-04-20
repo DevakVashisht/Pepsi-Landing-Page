@@ -18,7 +18,7 @@
 
 </head>
 
-<body>
+<body class="body">
 
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
@@ -44,22 +44,34 @@
     </nav>
 
     <div class="container">
-        <section class="title">
-            <h1 class="h1-main">That's What</h1>
-            <h1 class="h1-second">I Like</h1>
-            <div class="content">
-                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ad distinctio quod obcaecati, eius
-                    quaerat
-                    voluptatem esse asperiores dolore! Eveniet sint quod atque illo, accusantium labore quidem
-                    temporibus id
-                    molestias!</p>
-                <div class="image-box">
-                    <img src="images/pepsi001.png" alt="" srcset="">
-                </div>
-            </div>
-            <button type="button" class="btn btn-light t-btn">View All Products</button>
-        </section>
+        <div class="row">
 
+            <section class="title">
+                <h1 class="h1-main">That's What</h1>
+                <h1 class="h1-second">I Like</h1>
+                <div class="content">
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ad distinctio quod
+                        obcaecati, eius
+                        quaerat
+                        voluptatem esse asperiores dolore! Eveniet sint quod atque illo, accusantium labore quidem
+                        temporibus id
+                        molestias!</p>
+
+                    <div class="image-box">
+                        <img src="images/pepsi001.png" alt="" srcset="" class="pepsi">
+                    </div>
+                    <button type="button" class="btn btn-light t-btn">View All Products</button>
+                </div>
+            </section>
+        </div>
+        <ul class="thumb">
+            <li><img src="images/pepsi001.png" alt="" srcset=""
+                    onclick="imageSlider('images/pepsi001.png');changeBackground('#0062be')"></li>
+            <li><img src="images/pepsi002.png" alt="" srcset=""
+                    onclick="imageSlider('images/pepsi002.png');changeBackground('#e60c2c')"></li>
+            <li><img src="images/pepsi003.png" alt="" srcset=""
+                    onclick="imageSlider('images/pepsi003.png');changeBackground('#1e1e1e')"></li>
+        </ul>
 
     </div>
 
