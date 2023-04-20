@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0065c3;
+    color: white;
+    /* overflow: hidden; */
+    font-family: 'Poppins';
+}
+
+.title {
+    margin-top: 10%;
+}
+
+.navbar-nav {
+    padding-left: 70%;
+}
+
+.nav-item {
+    padding: 0 1.2rem;
+}
+
+.navbar-brand {
+    padding-left: 6.5%;
+}
+
+.h1-main { 
+    font-size: 400%;
+    margin-bottom: 0;
+}
+
+.h1-second {
+    margin-top: 0;
+    font-size: 866%;
+}
+
+.t-btn {
+    border-radius: 90px;
+    padding: 0.5rem 1rem;
+    margin-top: 0.7rem;
+}
+
+p {
+    line-height: 2;
+}
+
+.text {
+    position: relative;
+    max-width: 600px;
+}
+
+.image-box {
+    position: absolute;
+    right: 13rem;
+    top: 13rem;
+}
